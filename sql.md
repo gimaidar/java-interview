@@ -102,6 +102,13 @@ SELECT
      [HAVING where_definition]
      [ORDER BY {unsigned_integer | column | formula} [ASC | DESC], ...]
 ```
+1. FROM (выбор таблицы)
+2. JOIN (комбинация с подходящими по условию данными из других таблиц)
+3. WHERE (фильтрация строк)
+4. GROUP BY (агрегирование данных)
+5. HAVING (фильтрация агрегированных данных)
+6. SELECT (возврат результирующего датасета)
+7. ORDER BY (сортировка).
 
 [к оглавлению](#sql)
 
